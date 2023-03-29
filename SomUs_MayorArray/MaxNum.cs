@@ -20,9 +20,7 @@ namespace SomUs_MayorArray
             for (int i = 0; i < InputArray.Length; i++)
             {
                 if (InputArray[i] > maxval)
-                {
                     maxval = InputArray[i];
-                }
             }
 
             return maxval;
